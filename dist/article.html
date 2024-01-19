@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <!-- Meta tags and stylesheets (unchanged) -->
+        <meta charset="utf-8"/>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+            rel="stylesheet"/>
+        <!-- Core theme CSS (includes Bootstrap) -->
+        <link href="css/styles.css" rel="stylesheet"/>
+        <style>
+            body {
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+            }
+
+            main {
+                flex: 1;
+            }
+            style > body {
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                flex-direction: column;
+            }
+
+            main {
+                flex: 1;
+            }
+            .card{
+                padding: 0.2em;
+                line-height: 2;
+            }
+            .comment-card {
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                padding: 15px;
+                margin: 10px;
+            }
+    
+            .comment-header {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+    
+            .comment-form {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+            }
+    
+            .comment-textarea {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+    
+            .comment-counter {
+                align-self: flex-start;
+                color: #888;
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>ZingSoft Demo</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Crete+Round"
+            rel="stylesheet">
+        <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Navigation (unchanged) -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">SBC</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#!">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#!">About</a>
+                        </li>
+                        <li class="nav-item dropdown"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="bg-dark py-2">
+            <div class="container px-4 px-lg-4 my-5">
+                <div class="text-center text-white h-25">
+                    <h1 class="display-19 fw-bolder">[야고부] 왜곡된 의료전달체계</h1>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="container px-3 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-1 justify-content-center">
+                    <div class="col mb-5">
+                        <div class="card">
+                            '의료전달체계'란 게 있다. 용어는 낯설고 어렵지만, 알고 보면 익숙한 제도다. 김두통 씨가 머리가 아파 동네 의원을 갔다. 그곳 의사는 진찰을
+                            하고, 약 처방을 해 줬다. 약을 먹어도 낫지 않으면 큰 병원에 가서 CT나 MRI를 찍어 보라고 했다. 얼마 뒤 두통 씨는 결국 동네 의원에서
+                            진료의뢰서를 받아 대학병원을 찾았다. 이처럼 질환의 경중에 따라 환자가 동네 의원(1차 의료기관)이나 병원·종합병원(2차 의료기관)을 거쳐,
+                            상급종합병원(3차 의료기관·대부분 대학병원)으로 옮겨 가는 방식이 의료전달체계다.
+                            <br>
+                            <br>
+                            의료전달체계는 의료 자원의 효율적인 운영을 통해 환자가 '적시에, 적소에서 적정 진료'를 받을 수 있게 만든 제도다. 동네 의원이 비싼
+                            의료기기를 도입하거나, 대학병원이 감기 등 가벼운 질환을 다루는 것은 사회적으로 큰 낭비다. 의료전달체계는 이런 불합리를 방지하기 위해
+                            1989년 7월 전 국민 의료보험과 함께 실시됐다.
+                            <br>
+                            <br>
+                            '메디시티 대구'는 의료 인프라가 한강 이남에서 최고다. 그런데 의료전달체계가 왜곡되고 있다는 우려가 크다. 대학병원과 병·의원들은 많은데,
+                            2차 종합병원이 부족하다는 게 주요 원인이다. 환자들도 2차 종합병원보다 대학병원을 선호한다. 대구의 의료기관 5천314곳 중 1차 의료기관이
+                            3천726곳, 2차 의료기관은 225곳, 3차 의료기관은 5곳이다. 문제는 진료 과목이 다양하고, 응급 환자 치료가 가능한 2차 종합병원이
+                            적다는 점이다. 2차 의료기관 중 종합병원은 5.78%(13곳)에 불과하다. 이는 전국 특별·광역시 중 가장 낮은 비율이다.
+                            <br>
+                            <br>
+
+                            2차 종합병원은 동네 의원과 대학병원의 허리 역할을 한다. 2차 종합병원 역할이 부실하면, 대학병원으로 환자가 집중되는 등 의료체계 전반에
+                            부담이 커진다. 대학병원을 찾은 암을 비롯한 중증 환자들의 수술과 검사가 지연될 수밖에 없다. 응급 환자들이 대학병원에만 몰리면, 화급을 다투는
+                            환자들은 위험할 수 있다. 대학병원의 환자 과밀화는 2차 종합병원엔 재앙이다. 환자가 줄면 경영이 어렵고, 의료 역량이 떨어진다. 의료전달체계
+                            안정화는 시민 건강권 차원에서 중요한 과제다. 대구시와 의료계는 기존 의료 자원을 최대한 활용해 2차 종합병원의 역량을 키워야 한다.
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="comment-card">
+                                <div class="comment-header">Comments</div>
+                                <div id="comments">
+                                    <div id="comment" style="padding-bottom: 14px;">
+                                        기사 잘 보고 갑니다.
+                                    </div>
+                                </div>
+                                <!-- Comment form example -->
+                                <form class="comment-form">
+                                    <div class="mb-3">
+                                        <textarea class="form-control comment-textarea" id="comment" rows="3" placeholder="Write your comment here"></textarea>
+                                        <div class="comment-counter" id="comment-counter">0/300 characters</div>
+                                    </div>
+                                    <button type="button" class="btn btn-outline-dark btn-sm" onclick="submitComment()">Submit</button>
+                                </form>
+                            </div>
+                            <div id="myChart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer (unchanged) -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2024</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS (unchanged) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS (unchanged) -->
+        <script src="js/scripts.js"></script>
+        <script>
+            zingchart.MODULESDIR = 'https://cdn.zingchart.com/modules/';
+
+            //워드클라우드 환경설정
+            var myConfig = {
+                type: 'wordcloud',
+                options: {
+                    words: [
+                        {
+                            text: "테슬라",
+                            count: 80
+                        }, {
+                            text: "애플",
+                            count: 70
+                        }, {
+                            text: "아마존",
+                            count: 60
+                        }, {
+                            text: "월마트",
+                            count: 50
+                        }, {
+                            text: "삼성",
+                            count: 40
+                        }, {
+                            text: "현대차",
+                            count: 30
+                        }, {
+                            text: "구글",
+                            count: 20
+                        }, {
+                            text: "넥슨",
+                            count: 10
+                        }, {
+                            text: "SK하이닉스",
+                            count: 25
+                        }, {
+                            text: "LG생활건강",
+                            count: 8
+                        }, {
+                            text: "카카오",
+                            count: 5
+                        }, {
+                            text: "텐센트",
+                            count: 3
+                        }, {
+                            text: "페이스북",
+                            count: 7
+                        }, {
+                            text: "넷마블",
+                            count: 24
+                        }, {
+                            text: "쇼박스",
+                            count: 35
+                        }, {
+                            text: "CJ E&M",
+                            count: 16
+                        }, {
+                            text: "디즈니",
+                            count: 47
+                        }, {
+                            text: "넷플릭스",
+                            count: 19
+                        }, {
+                            text: "기업A",
+                            count: 3
+                        }, {
+                            text: "기업B",
+                            count: 3
+                        }, {
+                            text: "기업C",
+                            count: 3
+                        }, {
+                            text: "기업D",
+                            count: 3
+                        }, {
+                            text: "기업E",
+                            count: 3
+                        }
+                    ],
+                    minLength: 5,
+                    ignore: [""],
+                    maxItems: 40,
+                    aspect: 'spiral', // 'flow-top' | 'flow-center'
+
+                    colorType: 'palette',
+                    palette: [
+                        '#D32F2F',
+                        '#5D4037',
+                        '#1976D2',
+                        '#E53935',
+                        '#6D4C41',
+                        '#1E88E5',
+                        '#F44336',
+                        '#795548',
+                        '#2196F3',
+                        '#EF5350',
+                        '#8D6E63',
+                        '#42A5F5'
+                    ],
+
+                    style: {
+                        fontFamily: 'Crete Round',
+
+                        hoverState: {
+                            backgroundColor: '#D32F2F',
+                            borderRadius: 2,
+                            fontColor: 'white'
+                        },
+                        tooltip: {
+                            text: '%text: %hits',
+                            visible: true,
+                            alpha: 0.9,
+                            backgroundColor: '#1976D2',
+                            borderRadius: 2,
+                            borderColor: 'none',
+                            fontColor: 'white',
+                            fontFamily: 'Georgia',
+                            textAlpha: 1
+                        }
+                    }
+                },
+
+                source: {
+                    // text: '--President Barack Obama<br> Selma 50th anniversary speech<br>March 7,
+                    // 2015', Source:
+                    // https://obamawhitehouse.archives.gov/the-press-office/2015/03/07/remarks-president-50th-anniversary-selma-montgomery-marches
+                    fontColor: '#64B5F6',
+                    fontSize: 10,
+                    fontFamily: 'Georgia',
+                    fontWeight: 'normal',
+                    marginBottom: '10%'
+                }
+            };
+
+            //워드클라우드 렌더링
+            zingchart.render({id: 'myChart', data: myConfig, height: 400, width: '100%'});
+        </script>
+
+        <script>
+            // Character counter for the comment textarea
+            document.getElementById('comment').addEventListener('input', function () {
+                var counter = document.getElementById('comment-counter');
+                var maxLength = 300;
+                var currentLength = this.value.length;
+                counter.textContent = currentLength + '/' + maxLength + ' characters';
+            });
+    
+            // Function to submit a comment
+            function submitComment() {
+                var commentText = document.getElementById('comment').value.trim();
+                if (commentText.length > 0) {
+                    // Save comment to Local Storage
+                    saveComment(commentText);
+    
+                    // Update comment list
+                    loadComments();
+    
+                    // Clear the comment textarea
+                    document.getElementById('comment').value = '';
+                    document.getElementById('comment-counter').textContent = '0/300 characters';
+                }
+            }
+    
+            // Function to save a comment to Local Storage
+            function saveComment(comment) {
+                var comments = getComments();
+                comments.push(comment);
+                localStorage.setItem('comments', JSON.stringify(comments));
+            }
+    
+            // Function to load comments from Local Storage
+            function loadComments() {
+                var comments = getComments();
+                var commentsContainer = document.getElementById('comments');
+                commentsContainer.innerHTML = '';
+    
+                comments.forEach(function (comment) {
+                    var commentElement = document.createElement('div');
+                    commentElement.textContent = comment;
+                    commentsContainer.appendChild(commentElement);
+                });
+            }
+    
+            // Function to get comments from Local Storage
+            function getComments() {
+                var commentsString = localStorage.getItem('comments') || '[]';
+                return JSON.parse(commentsString);
+            }
+    
+            // Load comments when the page is loaded
+            window.onload = loadComments;
+        </script>
+    </body>
+
+</html>
